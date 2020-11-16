@@ -326,7 +326,7 @@
                   </sap:WorkflowViewStateService.ViewState>
                   <Transition.Condition>[SystemException IsNot Nothing]</Transition.Condition>
                   <Transition.To>
-                    <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="Leia o arquivo de configuração e inicialize os aplicativos usados no processo." DisplayName="Inicialização" sap:VirtualizedContainerService.HintSize="253.6,121.6" sap2010:WorkflowViewState.IdRef="State_2">
+                    <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="Leia o arquivo de configuração e inicialize os aplicativos usados no processo." DisplayName="Inicialização" sap:VirtualizedContainerService.HintSize="792,2112.8" sap2010:WorkflowViewState.IdRef="State_2">
                       <State.Entry>
                         <TryCatch DisplayName="Tente inicializar as configurações e aplicativos" sap:VirtualizedContainerService.HintSize="747.2,1692.8" sap2010:WorkflowViewState.IdRef="TryCatch_2">
                           <sap:WorkflowViewStateService.ViewState>
@@ -380,7 +380,7 @@
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                     </ui:InvokeWorkflowFile>
-                                    <If sap2010:Annotation.AnnotationText="Substitua o nome da fila do arquivo de configuração caso o argumento in_OrchestratorQueueName seja especificado.&#xA;Isso fornece compatibilidade com versões anteriores com &lt; 2018.3." Condition="[Not String.IsNullOrWhiteSpace(in_OrchestratorQueueName)]" DisplayName="Se in_OrchestratorQueueName for especificado" sap:VirtualizedContainerService.HintSize="483.2,269.6" sap2010:WorkflowViewState.IdRef="If_10">
+                                    <If sap2010:Annotation.AnnotationText="Substitua o nome da fila do arquivo de configuração caso o argumento in_OrchestratorQueueName seja especificado.&#xA;Isso fornece compatibilidade com versões anteriores com &lt; 2018.3" Condition="[Not String.IsNullOrWhiteSpace(in_OrchestratorQueueName)]" DisplayName="Se in_OrchestratorQueueName for especificado" sap:VirtualizedContainerService.HintSize="483.2,269.6" sap2010:WorkflowViewState.IdRef="If_10">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -570,7 +570,7 @@
                 <Transition sap2010:Annotation.AnnotationText="Business Rule Exception" DisplayName="Exceção de negócios" sap:VirtualizedContainerService.HintSize="450,536" sap2010:WorkflowViewState.IdRef="Transition_1">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <av:PointCollection x:Key="ConnectorLocation">361.053333333333,731.066666666667 361.053333333333,756.653333333333 601.6,756.653333333333 601.6,246.653333333333 474.733333333333,246.653333333333</av:PointCollection>
+                      <av:PointCollection x:Key="ConnectorLocation">361.053333333333,731.066666666667 361.053333333333,753.2 595.2,753.2 595.2,246.653333333333 474.733333333333,246.653333333333</av:PointCollection>
                       <x:Int32 x:Key="SrcConnectionPointIndex">43</x:Int32>
                       <x:Int32 x:Key="DestConnectionPointIndex">20</x:Int32>
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
